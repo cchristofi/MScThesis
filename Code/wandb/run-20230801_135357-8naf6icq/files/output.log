@@ -1,0 +1,30 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  ConTest1
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/linecache.py", line 47, in getlines
+    return updatecache(filename, module_globals)
+  File "/usr/lib/python3.8/linecache.py", line 137, in updatecache
+    lines = fp.readlines()
+  File "/usr/lib/python3.8/codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+Original exception was:
+Traceback (most recent call last):
+  File "/home/user/Thesis/GUI/gui.py", line 144, in keyPressEvent
+    self.runTrial.trial.agent.take_training_step([0, 1, 0])
+  File "/home/user/Thesis/agent.py", line 669, in take_training_step
+    observation = self.env.step(action)
+  File "/home/user/.local/lib/python3.8/site-packages/gymnasium/wrappers/time_limit.py", line 57, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "/home/user/.local/lib/python3.8/site-packages/gymnasium/wrappers/order_enforcing.py", line 56, in step
+    return self.env.step(action)
+  File "/home/user/.local/lib/python3.8/site-packages/gymnasium/wrappers/env_checker.py", line 47, in step
+    return env_step_passive_checker(self.env, action)
+  File "/home/user/.local/lib/python3.8/site-packages/gymnasium/utils/passive_env_checker.py", line 237, in env_step_passive_checker
+    result = env.step(action)
+  File "/home/user/panda-gym/panda_gym/envs/core.py", line 324, in step
+    reward = float(self.task.compute_reward(observation["achieved_goal"], self.task.get_goal(), info))
+  File "/home/user/panda-gym/panda_gym/envs/tasks/reach.py", line 70, in compute_reward
+    input(f"Info: {info}")

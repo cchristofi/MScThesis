@@ -1,0 +1,48 @@
+2023-08-08 15:34:17,242 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Configure stats pid to 5746
+2023-08-08 15:34:17,243 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Loading settings from /home/user/.config/wandb/settings
+2023-08-08 15:34:17,243 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Loading settings from /home/user/Thesis/wandb/settings
+2023-08-08 15:34:17,243 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-08-08 15:34:17,243 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-08 15:34:17,243 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'panda.py', 'program': 'panda.py'}
+2023-08-08 15:34:17,244 INFO    Dummy-2   :5746 [wandb_init.py:_log_setup():507] Logging user logs to /home/user/Thesis/wandb/run-20230808_153417-7yof9bdt/logs/debug.log
+2023-08-08 15:34:17,244 INFO    Dummy-2   :5746 [wandb_init.py:_log_setup():508] Logging internal logs to /home/user/Thesis/wandb/run-20230808_153417-7yof9bdt/logs/debug-internal.log
+2023-08-08 15:34:17,244 INFO    Dummy-2   :5746 [wandb_init.py:init():547] calling init triggers
+2023-08-08 15:34:17,244 INFO    Dummy-2   :5746 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-08-08 15:34:17,245 INFO    Dummy-2   :5746 [wandb_init.py:init():590] wandb.init() called when a run is still active
+2023-08-08 15:34:53,896 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Configure stats pid to 5746
+2023-08-08 15:34:53,896 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Loading settings from /home/user/.config/wandb/settings
+2023-08-08 15:34:53,896 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Loading settings from /home/user/Thesis/wandb/settings
+2023-08-08 15:34:53,896 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-08-08 15:34:53,897 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-08 15:34:53,897 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'panda.py', 'program': 'panda.py'}
+2023-08-08 15:34:53,897 INFO    Dummy-2   :5746 [wandb_init.py:_log_setup():507] Logging user logs to /home/user/Thesis/wandb/run-20230808_153453-ukviio8u/logs/debug.log
+2023-08-08 15:34:53,898 INFO    Dummy-2   :5746 [wandb_init.py:_log_setup():508] Logging internal logs to /home/user/Thesis/wandb/run-20230808_153453-ukviio8u/logs/debug-internal.log
+2023-08-08 15:34:53,898 INFO    Dummy-2   :5746 [wandb_init.py:init():547] calling init triggers
+2023-08-08 15:34:53,898 INFO    Dummy-2   :5746 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-08-08 15:34:53,899 INFO    Dummy-2   :5746 [wandb_init.py:init():590] wandb.init() called when a run is still active
+2023-08-08 15:38:04,112 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Configure stats pid to 5746
+2023-08-08 15:38:04,113 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Loading settings from /home/user/.config/wandb/settings
+2023-08-08 15:38:04,113 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Loading settings from /home/user/Thesis/wandb/settings
+2023-08-08 15:38:04,114 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-08-08 15:38:04,114 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-08 15:38:04,114 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'panda.py', 'program': 'panda.py'}
+2023-08-08 15:38:04,115 INFO    Dummy-2   :5746 [wandb_init.py:_log_setup():507] Logging user logs to /home/user/Thesis/wandb/run-20230808_153804-chwnf67b/logs/debug.log
+2023-08-08 15:38:04,115 INFO    Dummy-2   :5746 [wandb_init.py:_log_setup():508] Logging internal logs to /home/user/Thesis/wandb/run-20230808_153804-chwnf67b/logs/debug-internal.log
+2023-08-08 15:38:04,116 INFO    Dummy-2   :5746 [wandb_init.py:init():547] calling init triggers
+2023-08-08 15:38:04,116 INFO    Dummy-2   :5746 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-08-08 15:38:04,116 INFO    Dummy-2   :5746 [wandb_init.py:init():590] wandb.init() called when a run is still active
+2023-08-08 15:41:15,588 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Configure stats pid to 5746
+2023-08-08 15:41:15,588 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Loading settings from /home/user/.config/wandb/settings
+2023-08-08 15:41:15,588 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Loading settings from /home/user/Thesis/wandb/settings
+2023-08-08 15:41:15,589 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-08-08 15:41:15,589 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-08 15:41:15,589 INFO    Dummy-2   :5746 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'panda.py', 'program': 'panda.py'}
+2023-08-08 15:41:15,590 INFO    Dummy-2   :5746 [wandb_init.py:_log_setup():507] Logging user logs to /home/user/Thesis/wandb/run-20230808_154115-6vaficli/logs/debug.log
+2023-08-08 15:41:15,590 INFO    Dummy-2   :5746 [wandb_init.py:_log_setup():508] Logging internal logs to /home/user/Thesis/wandb/run-20230808_154115-6vaficli/logs/debug-internal.log
+2023-08-08 15:41:15,590 INFO    Dummy-2   :5746 [wandb_init.py:init():547] calling init triggers
+2023-08-08 15:41:15,590 INFO    Dummy-2   :5746 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-08-08 15:41:15,591 INFO    Dummy-2   :5746 [wandb_init.py:init():590] wandb.init() called when a run is still active

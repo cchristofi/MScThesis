@@ -1,0 +1,29 @@
+<RCC>
+  <qresource prefix="Icons">
+    <file>icons/key_esc.png</file>
+    <file>icons/ready.png</file>
+    <file>icons/next50.png</file>
+    <file>icons/next20.png</file>
+    <file>icons/panda.png</file>
+    <file>icons/key_W.png</file>
+    <file>icons/key_S.png</file>
+    <file>icons/key_D.png</file>
+    <file>icons/key_A.png</file>
+    <file>icons/key_8.png</file>
+    <file>icons/key_6.png</file>
+    <file>icons/key_4.png</file>
+    <file>icons/key_2.png</file>
+    <file>icons/stop50.png</file>
+    <file>icons/stop20.png</file>
+    <file>icons/reset50.png</file>
+    <file>icons/reset20.png</file>
+    <file>icons/play50.png</file>
+    <file>icons/play20.png</file>
+    <file>icons/pause50.png</file>
+    <file>icons/pause20.png</file>
+    <file>icons/feedbackGood50.png</file>
+    <file>icons/feedbackGood20.png</file>
+    <file>icons/feedbackBad50.png</file>
+    <file>icons/feedbackBad20.png</file>
+  </qresource>
+</RCC>

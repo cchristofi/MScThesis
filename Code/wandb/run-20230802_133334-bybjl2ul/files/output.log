@@ -1,0 +1,30 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  Pambos
+Task Name:  CustomReachEnv1
+Traceback (most recent call last):
+  File "panda_v2.py", line 27, in startWindow
+    self.UIWindow.closeEvent()
+TypeError: closeEvent() missing 1 required positional argument: 'event'
+Traceback (most recent call last):
+  File "panda_v2.py", line 27, in startWindow
+    self.UIWindow.closeEvent()
+TypeError: closeEvent() missing 1 required positional argument: 'event'
+Traceback (most recent call last):
+  File "panda_v2.py", line 27, in startWindow
+    self.UIWindow.closeEvent()
+TypeError: closeEvent() missing 1 required positional argument: 'event'
+Traceback (most recent call last):
+  File "panda_v2.py", line 27, in startWindow
+    self.UIWindow.closeEvent()
+TypeError: closeEvent() missing 1 required positional argument: 'event'
+done
+{'upload': {'projectId': None, 'participantID': 'Pambos', 'file': 'trial_Pambos', 'path': './Trials/trial_Pambos'}}
+Traceback (most recent call last):
+  File "panda_v2.py", line 27, in startWindow
+    self.UIWindow.closeEvent()
+TypeError: closeEvent() missing 1 required positional argument: 'event'
+Traceback (most recent call last):
+  File "panda_v2.py", line 27, in startWindow
+    self.UIWindow.closeEvent()
+TypeError: closeEvent() missing 1 required positional argument: 'event'

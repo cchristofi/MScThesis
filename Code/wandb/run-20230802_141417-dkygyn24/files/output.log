@@ -1,0 +1,46 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  Pambos
+Task Name:  CustomReachEnv1
+done
+{'upload': {'projectId': None, 'participantID': 'Pambos', 'file': 'trial_Pambos', 'path': './Trials/trial_Pambos'}}
+[Errno 2] No such file or directory: './pre-trained-model/PandaReach-v3/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './pre-trained-model/PandaReach-v3/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  Pambos
+Task Name:  CustomReachEnv1
+done
+{'upload': {'projectId': None, 'participantID': 'Pambos', 'file': 'trial_Pambos', 'path': './Trials/trial_Pambos'}}
+[Errno 2] No such file or directory: './pre-trained-model/PandaReach-v3/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './pre-trained-model/PandaReach-v3/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  Pambos
+Task Name:  CustomReachEnv1
+done
+{'upload': {'projectId': None, 'participantID': 'Pambos', 'file': 'trial_Pambos', 'path': './Trials/trial_Pambos'}}
+[Errno 2] No such file or directory: './pre-trained-model/PandaReach-v3/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './pre-trained-model/PandaReach-v3/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  Pambos
+Task Name:  CustomReachEnv1
+done
+{'upload': {'projectId': None, 'participantID': 'Pambos', 'file': 'trial_Pambos', 'path': './Trials/trial_Pambos'}}
+[Errno 2] No such file or directory: './pre-trained-model/PandaReach-v3/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './pre-trained-model/PandaReach-v3/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  Pambos
+Task Name:  CustomReachEnv1
+done
+{'upload': {'projectId': None, 'participantID': 'Pambos', 'file': 'trial_Pambos', 'path': './Trials/trial_Pambos'}}

@@ -1,0 +1,38 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv1
+ID: 0
+COMBOBOX: Task 2 - Avoid Red Sphere
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv2
+ID: 0
+COMBOBOX: Task 3 - Touch Blue Sphere
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv3
+ID: 0
+COMBOBOX: Task 2 - Avoid Red Sphere
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv2
+ID: 0
+COMBOBOX: Task 1 - Reach Green Sphere
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv1
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}

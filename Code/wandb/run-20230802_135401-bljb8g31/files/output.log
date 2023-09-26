@@ -1,0 +1,21 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  Pambos
+Task Name:  CustomReachEnv1
+STOP -----------------------------------
+done
+{'upload': {'projectId': None, 'participantID': 'Pambos', 'file': 'trial_Pambos', 'path': './Trials/trial_Pambos'}}
+STOP -----------------------------------
+STOP -----------------------------------
+STOP -----------------------------------
+STOP -----------------------------------
+STOP -----------------------------------
+STOP -----------------------------------
+Traceback (most recent call last):
+  File "panda_v2.py", line 40, in <module>
+    start.exec()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "panda_v2.py", line 40, in <module>
+    start.exec()
+KeyboardInterrupt

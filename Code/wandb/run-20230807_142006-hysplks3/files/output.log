@@ -1,0 +1,20 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv0
+Traceback (most recent call last):
+  File "/home/user/Thesis/trial.py", line 158, in start
+    self.run()
+  File "/home/user/Thesis/trial.py", line 175, in run
+    self.take_step()
+  File "/home/user/Thesis/trial.py", line 369, in take_step
+    print(timedelta(seconds=timer()-self.game_start_time).seconds)
+AttributeError: 'Trial' object has no attribute 'game_start_time'
+Traceback (most recent call last):
+  File "/home/user/Thesis/trial.py", line 158, in start
+    self.run()
+  File "/home/user/Thesis/trial.py", line 175, in run
+    self.take_step()
+  File "/home/user/Thesis/trial.py", line 369, in take_step
+    print(timedelta(seconds=timer()-self.game_start_time).seconds)
+AttributeError: 'Trial' object has no attribute 'game_start_time'

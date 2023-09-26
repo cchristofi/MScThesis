@@ -1,0 +1,12 @@
+2023-08-02 12:43:18,654 INFO    StreamThr :14804 [internal.py:wandb_internal():86] W&B internal server running at pid: 14804, started at: 2023-08-02 12:43:18.654197
+2023-08-02 12:43:18,655 DEBUG   HandlerThread:14804 [handler.py:handle_request():144] handle_request: status
+2023-08-02 12:43:18,657 INFO    WriterThread:14804 [datastore.py:open_for_write():85] open: /home/user/Thesis/wandb/run-20230802_124318-8s27g1sz/run-8s27g1sz.wandb
+2023-08-02 12:43:18,657 DEBUG   SenderThread:14804 [sender.py:send():375] send: header
+2023-08-02 12:43:18,676 DEBUG   SenderThread:14804 [sender.py:send():375] send: run
+2023-08-02 12:43:23,678 DEBUG   HandlerThread:14804 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-02 12:43:24,476 INFO    SenderThread:14804 [dir_watcher.py:__init__():219] watching files in: /home/user/Thesis/wandb/run-20230802_124318-8s27g1sz/files
+2023-08-02 12:43:24,476 INFO    SenderThread:14804 [sender.py:_start_run_threads():1124] run started: 8s27g1sz with start time 1690969398.653787
+2023-08-02 12:43:24,476 DEBUG   HandlerThread:14804 [handler.py:handle_request():144] handle_request: status_report
+2023-08-02 12:43:26,659 INFO    MainThread:14804 [internal.py:handle_exit():76] Internal process exited
+2023-08-02 12:43:27,664 WARNING StreamThr :14804 [internal.py:is_dead():414] Internal process exiting, parent pid 14764 disappeared
+2023-08-02 12:43:27,664 ERROR   StreamThr :14804 [internal.py:wandb_internal():152] Internal process shutdown.

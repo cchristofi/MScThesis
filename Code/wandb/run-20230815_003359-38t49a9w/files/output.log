@@ -1,0 +1,475 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  1
+Task Name:  CustomReachEnv1
+State: 9,9,9
+State: 9,9,9
+State: 9,8,9
+State: 9,8,9
+State: 9,7,9
+State: 9,7,9
+State: 9,6,9
+State: 9,6,9
+State: 9,6,9
+State: 9,7,9
+State: 9,7,9
+State: 9,7,9
+State: 9,7,9
+State: 9,7,9
+State: 10,7,9
+State: 8,2,9
+State: 8,2,9
+State: 9,3,9
+State: 9,3,9
+State: 9,3,9
+State: 9,4,9
+State: 9,4,9
+State: 10,4,9
+State: 10,5,9
+State: 10,5,9
+State: 10,5,9
+State: 10,5,9
+State: 10,5,9
+State: 10,5,9
+State: 10,5,9
+State: 10,5,9
+State: 10,6,9
+State: 10,6,9
+State: 10,6,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,6,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 7,4,9
+State: 7,5,9
+State: 7,5,9
+State: 7,5,9
+State: 7,6,9
+State: 7,6,9
+State: 7,6,9
+State: 8,6,9
+State: 8,6,9
+State: 8,6,9
+State: 9,7,10
+State: 9,7,10
+State: 9,7,10
+State: 5,7,9
+State: 5,7,9
+State: 5,7,9
+State: 6,7,9
+State: 6,7,9
+done
+{'upload': {'projectId': None, 'participantID': '1', 'file': 'trial_1', 'path': './Trials/trial_1'}}
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/1/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/1/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  1
+Task Name:  CustomReachEnv2
+State: 5,4,9
+State: 5,4,9
+State: 5,5,9
+State: 5,5,9
+State: 5,6,9
+State: 5,6,9
+State: 6,6,9
+State: 7,7,9
+State: 7,7,9
+State: 7,7,9
+State: 7,7,9
+State: 7,7,9
+State: 7,7,9
+State: 8,8,9
+State: 8,8,9
+State: 8,7,9
+State: 9,7,9
+State: 9,7,9
+State: 9,7,9
+State: 9,7,9
+State: 9,11,9
+State: 9,11,9
+State: 9,11,9
+State: 9,10,9
+State: 9,10,9
+State: 9,9,9
+State: 9,9,9
+State: 9,9,9
+State: 10,9,9
+State: 10,9,9
+State: 10,9,9
+State: 10,9,9
+State: 9,9,9
+State: 9,9,9
+State: 9,8,9
+State: 9,8,9
+State: 9,8,10
+State: 9,8,10
+State: 9,8,10
+State: 9,7,10
+State: 9,7,10
+State: 4,13,9
+State: 4,13,9
+State: 4,13,9
+State: 4,13,9
+State: 4,13,9
+State: 4,12,9
+State: 4,12,9
+State: 4,11,9
+State: 4,11,9
+State: 3,12,10
+State: 4,12,10
+State: 4,12,10
+State: 4,11,10
+State: 4,11,10
+State: 4,11,10
+State: 5,11,10
+State: 5,11,10
+State: 5,11,10
+State: 6,12,9
+State: 6,12,9
+State: 6,11,9
+State: 6,11,9
+State: 6,10,9
+done
+{'upload': {'projectId': None, 'participantID': '1', 'file': 'trial_1', 'path': './Trials/trial_1'}}
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/1/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/1/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  1
+Task Name:  CustomReachEnv3
+State: 6,8,10
+State: 6,9,10
+State: 6,9,9
+State: 6,9,9
+State: 7,9,9
+State: 7,9,9
+State: 7,9,9
+State: 7,10,9
+State: 7,10,9
+State: 8,10,9
+State: 8,9,9
+State: 8,9,9
+State: 8,9,9
+State: 9,9,9
+State: 9,9,9
+State: 9,9,9
+State: 8,9,9
+State: 8,9,9
+State: 8,9,9
+State: 9,9,9
+State: 9,9,9
+State: 9,9,9
+State: 9,9,9
+State: 9,9,9
+State: 8,9,10
+State: 9,9,10
+State: 9,9,10
+State: 9,9,10
+State: 9,9,10
+State: 8,15,9
+State: 8,14,9
+State: 8,14,9
+State: 8,13,9
+State: 8,13,9
+State: 8,13,9
+State: 8,13,9
+State: 8,12,9
+State: 8,12,9
+State: 8,12,9
+State: 8,12,9
+State: 8,11,9
+State: 9,10,9
+State: 9,10,9
+State: 9,9,9
+State: 9,9,9
+State: 9,9,9
+State: 9,9,11
+State: 9,8,11
+State: 9,8,11
+State: 9,7,11
+State: 9,7,11
+State: 9,7,10
+State: 9,7,9
+State: 9,7,9
+State: 10,7,9
+State: 11,11,9
+State: 11,11,9
+State: 11,11,9
+State: 11,11,9
+State: 11,11,9
+State: 11,11,9
+State: 10,11,9
+State: 9,9,11
+State: 9,9,11
+State: 9,9,11
+State: 9,9,10
+State: 8,9,10
+State: 9,9,10
+State: 9,9,10
+State: 9,9,10
+State: 9,8,10
+State: 9,8,10
+State: 9,14,9
+State: 9,13,9
+State: 10,13,9
+State: 10,13,9
+State: 10,13,9
+State: 10,13,9
+State: 10,13,9
+State: 10,13,9
+State: 10,12,9
+State: 10,12,9
+State: 10,12,9
+State: 10,11,9
+State: 10,11,9
+State: 10,11,9
+State: 10,11,9
+State: 9,9,10
+State: 9,9,10
+State: 9,8,10
+State: 7,8,9
+State: 7,7,9
+State: 7,7,9
+State: 7,7,9
+State: 7,7,9
+State: 8,7,9
+State: 8,7,9
+State: 8,7,9
+State: 10,6,9
+State: 10,6,9
+done
+{'upload': {'projectId': None, 'participantID': '1', 'file': 'trial_1', 'path': './Trials/trial_1'}}
+User directory created:  /home/user/Thesis/userdata/PandaReach-v3/2
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/2/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/2/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  2
+Task Name:  CustomReachEnv1
+State: 10,11,9
+State: 10,11,9
+State: 10,11,9
+State: 10,10,9
+State: 10,10,9
+State: 10,10,9
+State: 8,8,9
+State: 8,8,9
+State: 8,7,9
+State: 8,7,9
+State: 8,6,9
+State: 10,6,9
+State: 10,6,9
+State: 10,6,9
+State: 9,6,9
+State: 9,6,9
+State: 7,5,9
+State: 7,6,9
+State: 7,6,9
+State: 7,6,9
+State: 7,6,9
+State: 7,6,9
+State: 7,6,9
+State: 8,6,9
+State: 8,6,9
+State: 9,6,10
+State: 9,6,10
+State: 10,7,10
+State: 8,13,9
+State: 8,13,9
+State: 8,13,9
+State: 8,13,9
+State: 8,12,9
+State: 8,12,9
+State: 8,11,9
+State: 8,10,9
+State: 8,9,9
+State: 8,9,9
+State: 8,9,9
+State: 8,9,9
+State: 7,9,9
+State: 8,9,9
+State: 8,9,9
+State: 8,9,9
+State: 8,8,9
+State: 10,5,9
+State: 10,5,9
+State: 10,5,9
+State: 10,5,9
+State: 10,5,9
+State: 10,5,9
+State: 10,5,9
+State: 10,5,9
+State: 10,5,9
+State: 9,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 9,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+done
+{'upload': {'projectId': None, 'participantID': '2', 'file': 'trial_2', 'path': './Trials/trial_2'}}
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/2/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/2/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  2
+Task Name:  CustomReachEnv2
+State: 8,9,9
+State: 8,9,9
+State: 8,9,9
+State: 8,8,9
+State: 8,8,9
+State: 8,8,9
+State: 8,8,9
+State: 8,8,9
+State: 8,8,9
+State: 8,8,9
+State: 8,8,9
+State: 5,10,9
+State: 5,10,9
+State: 5,9,9
+State: 5,9,9
+State: 5,9,9
+State: 5,9,9
+State: 5,9,9
+State: 5,9,9
+State: 5,9,9
+State: 5,9,9
+State: 5,9,9
+State: 5,9,9
+State: 5,8,9
+State: 5,8,9
+State: 5,8,9
+State: 5,8,10
+State: 6,8,9
+State: 6,8,10
+State: 7,8,9
+State: 7,8,9
+State: 5,9,9
+State: 5,8,9
+State: 5,8,9
+State: 5,8,9
+State: 5,7,10
+State: 6,7,10
+State: 6,7,10
+State: 6,7,10
+State: 7,7,10
+State: 7,7,10
+State: 7,7,10
+State: 8,7,10
+State: 8,8,9
+State: 8,8,9
+State: 8,7,9
+State: 8,7,9
+State: 8,7,9
+State: 8,7,9
+State: 9,7,9
+State: 9,7,9
+State: 9,7,9
+State: 9,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 9,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 8,15,9
+State: 8,14,9
+State: 8,14,9
+State: 8,14,9
+State: 9,13,9
+State: 9,13,9
+State: 9,13,9
+State: 9,12,9
+State: 10,11,9
+State: 10,11,9
+State: 10,11,9
+State: 10,11,9
+State: 10,9,11
+State: 10,9,11
+State: 4,7,10
+State: 5,7,10
+State: 5,7,10
+State: 5,7,10
+State: 6,7,10
+State: 6,7,10
+State: 6,7,10
+State: 6,7,11
+State: 6,7,11
+State: 6,7,11
+State: 7,7,11
+State: 7,7,11
+done
+{'upload': {'projectId': None, 'participantID': '2', 'file': 'trial_2', 'path': './Trials/trial_2'}}
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/2/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/2/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  2
+Task Name:  CustomReachEnv3
+State: 7,13,9
+State: 7,12,9
+State: 7,12,9
+State: 7,12,9
+State: 7,11,9
+State: 7,11,9
+State: 7,10,9
+State: 7,10,9
+State: 7,10,9
+State: 7,10,9
+State: 7,10,9
+State: 8,10,9
+State: 8,9,9
+State: 8,9,9
+State: 8,8,9
+State: 8,8,9
+State: 9,6,9
+State: 10,6,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 9,10,11
+State: 9,9,11
+State: 9,9,11
+State: 9,8,11
+State: 9,8,11
+State: 9,7,9
+State: 9,6,9
+State: 9,6,9
+State: 10,6,9
+done
+{'upload': {'projectId': None, 'participantID': '2', 'file': 'trial_2', 'path': './Trials/trial_2'}}

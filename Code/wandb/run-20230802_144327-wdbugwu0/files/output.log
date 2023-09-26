@@ -1,0 +1,14 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  1
+Task Name:  CustomReachEnv1
+done
+{'upload': {'projectId': None, 'participantID': '1', 'file': 'trial_1', 'path': './Trials/trial_1'}}
+ID: 1
+COMBOBOX: Task 2 - Avoid Red Sphere
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  1
+Task Name:  CustomReachEnv2
+done
+{'upload': {'projectId': None, 'participantID': '1', 'file': 'trial_1', 'path': './Trials/trial_1'}}

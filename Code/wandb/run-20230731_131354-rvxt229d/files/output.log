@@ -1,0 +1,5 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  ConTest1
+envAction: [-1, 0, 0]
+envActionNeg: [1, 0, 0]

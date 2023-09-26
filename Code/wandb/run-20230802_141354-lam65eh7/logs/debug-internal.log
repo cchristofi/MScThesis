@@ -1,0 +1,26 @@
+2023-08-02 14:13:54,929 INFO    StreamThr :21047 [internal.py:wandb_internal():86] W&B internal server running at pid: 21047, started at: 2023-08-02 14:13:54.928845
+2023-08-02 14:13:54,931 DEBUG   HandlerThread:21047 [handler.py:handle_request():144] handle_request: status
+2023-08-02 14:13:54,933 INFO    WriterThread:21047 [datastore.py:open_for_write():85] open: /home/user/Thesis/wandb/run-20230802_141354-lam65eh7/run-lam65eh7.wandb
+2023-08-02 14:13:54,933 DEBUG   SenderThread:21047 [sender.py:send():375] send: header
+2023-08-02 14:13:54,954 DEBUG   SenderThread:21047 [sender.py:send():375] send: run
+2023-08-02 14:13:55,564 INFO    SenderThread:21047 [dir_watcher.py:__init__():219] watching files in: /home/user/Thesis/wandb/run-20230802_141354-lam65eh7/files
+2023-08-02 14:13:55,564 INFO    SenderThread:21047 [sender.py:_start_run_threads():1124] run started: lam65eh7 with start time 1690974834.92863
+2023-08-02 14:13:55,565 DEBUG   SenderThread:21047 [sender.py:send_request():402] send_request: summary_record
+2023-08-02 14:13:55,565 INFO    SenderThread:21047 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-08-02 14:13:55,569 DEBUG   HandlerThread:21047 [handler.py:handle_request():144] handle_request: check_version
+2023-08-02 14:13:55,569 DEBUG   SenderThread:21047 [sender.py:send_request():402] send_request: check_version
+2023-08-02 14:13:55,932 WARNING StreamThr :21047 [internal.py:is_dead():414] Internal process exiting, parent pid 21007 disappeared
+2023-08-02 14:13:55,932 ERROR   StreamThr :21047 [internal.py:wandb_internal():152] Internal process shutdown.
+2023-08-02 14:13:56,568 INFO    Thread-12 :21047 [dir_watcher.py:_on_file_created():278] file/dir created: /home/user/Thesis/wandb/run-20230802_141354-lam65eh7/files/wandb-summary.json
+2023-08-02 14:13:56,569 INFO    HandlerThread:21047 [handler.py:finish():845] shutting down handler
+2023-08-02 14:13:56,570 INFO    WriterThread:21047 [datastore.py:close():298] close: /home/user/Thesis/wandb/run-20230802_141354-lam65eh7/run-lam65eh7.wandb
+2023-08-02 14:13:56,746 INFO    SenderThread:21047 [sender.py:finish():1550] shutting down sender
+2023-08-02 14:13:56,747 INFO    SenderThread:21047 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-08-02 14:13:57,570 INFO    SenderThread:21047 [dir_watcher.py:finish():395] scan: /home/user/Thesis/wandb/run-20230802_141354-lam65eh7/files
+2023-08-02 14:13:57,570 INFO    SenderThread:21047 [dir_watcher.py:finish():409] scan save: /home/user/Thesis/wandb/run-20230802_141354-lam65eh7/files/config.yaml config.yaml
+2023-08-02 14:13:57,570 INFO    SenderThread:21047 [dir_watcher.py:finish():409] scan save: /home/user/Thesis/wandb/run-20230802_141354-lam65eh7/files/wandb-summary.json wandb-summary.json
+2023-08-02 14:13:57,577 INFO    SenderThread:21047 [file_pusher.py:finish():168] shutting down file pusher
+2023-08-02 14:13:57,577 INFO    SenderThread:21047 [file_pusher.py:join():173] waiting for file pusher
+2023-08-02 14:13:57,935 INFO    MainThread:21047 [internal.py:handle_exit():76] Internal process exited
+2023-08-02 14:13:58,236 INFO    wandb-upload_0:21047 [upload_job.py:push():137] Uploaded file /home/user/Thesis/wandb/run-20230802_141354-lam65eh7/files/config.yaml
+2023-08-02 14:13:58,311 INFO    wandb-upload_1:21047 [upload_job.py:push():137] Uploaded file /home/user/Thesis/wandb/run-20230802_141354-lam65eh7/files/wandb-summary.json

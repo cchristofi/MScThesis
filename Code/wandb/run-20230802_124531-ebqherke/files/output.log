@@ -1,0 +1,6 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  Pambos
+Task Name:  CustomReachEnv1
+done
+{'upload': {'projectId': None, 'participantID': 'Pambos', 'file': 'trial_Pambos', 'path': './Trials/trial_Pambos'}}

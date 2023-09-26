@@ -1,0 +1,97 @@
+{
+    "os": "Linux-5.15.0-78-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2023-07-26T18:47:00.059543",
+    "startedAt": "2023-07-26T18:46:59.195027",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "panda.py",
+    "codePath": "panda.py",
+    "git": {
+        "remote": "git@github.com:cchristofi/FeedbackLearning.git",
+        "commit": "90041240d10873f241ae19f36f938ac96c890617"
+    },
+    "email": "cc.christofi98@gmail.com",
+    "root": "/home/user/Thesis",
+    "host": "G5-5587",
+    "username": "user",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2482.1095,
+        "min": 800.0,
+        "max": 4100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2200.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 2200.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3875.217,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3910.097,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 2200.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 2200.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 2200.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 2200.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 2200.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 2200.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 2200.0,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 2200.0,
+            "min": 800.0,
+            "max": 4100.0
+        }
+    ],
+    "disk": {
+        "total": 467.8895797729492,
+        "used": 66.48821258544922
+    },
+    "memory": {
+        "total": 15.321174621582031
+    }
+}

@@ -1,0 +1,14 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv1
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}
+Traceback (most recent call last):
+  File "/home/user/Thesis/GUI/gui.py", line 230, in setLblText
+    if self.runTrial.trial.agent.trial_timer >= 180:
+AttributeError: 'Agent' object has no attribute 'trial_timer'
+Traceback (most recent call last):
+  File "/home/user/Thesis/GUI/gui.py", line 230, in setLblText
+    if self.runTrial.trial.agent.trial_timer >= 180:
+AttributeError: 'Agent' object has no attribute 'trial_timer'

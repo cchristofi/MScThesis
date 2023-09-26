@@ -1,0 +1,15 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  Pambos
+Task Name:  CustomReachEnv1
+STOP -----------------------------------
+done
+{'upload': {'projectId': None, 'participantID': 'Pambos', 'file': 'trial_Pambos', 'path': './Trials/trial_Pambos'}}
+Traceback (most recent call last):
+  File "panda_v2.py", line 28, in startWindow
+    self.UIWindow.new_thread.stop()
+AttributeError: 'QThread' object has no attribute 'stop'
+Traceback (most recent call last):
+  File "panda_v2.py", line 28, in startWindow
+    self.UIWindow.new_thread.stop()
+AttributeError: 'QThread' object has no attribute 'stop'

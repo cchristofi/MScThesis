@@ -1,0 +1,52 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv0
+AGENT: 3
+TRIAL: 3
+AGENT: 3
+TRIAL: 3
+AGENT: 3
+TRIAL: 3
+AGENT: 3
+TRIAL: 3
+AGENT: 3
+TRIAL: 3
+AGENT: 3
+TRIAL: 3
+AGENT: 3
+TRIAL: 3
+AGENT: 3
+TRIAL: 3
+AGENT: 3
+TRIAL: 3
+AGENT: 4
+TRIAL: 4
+AGENT: 4
+TRIAL: 4
+AGENT: 4
+TRIAL: 4
+AGENT: 4
+TRIAL: 4
+AGENT: 4
+TRIAL: 4
+AGENT: 4
+TRIAL: 4
+AGENT: 4
+TRIAL: 4
+AGENT: 4
+TRIAL: 4
+AGENT: 4
+TRIAL: 4
+AGENT: 4
+TRIAL: 4
+AGENT: 4
+TRIAL: 4
+AGENT: 4
+TRIAL: 4
+AGENT: 4
+TRIAL: 4
+AGENT: 4
+TRIAL: 4
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}

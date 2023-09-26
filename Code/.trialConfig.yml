@@ -1,0 +1,23 @@
+trial:
+  actionBufferLifespan: 10
+  actionSpace:
+  - forward
+  - backward
+  - left
+  - right
+  - up
+  - down
+  - open
+  - close
+  allowFrameRateChange: False
+  bucket: null
+  dataFile: trial
+  frameRateStepSize: 5
+  game: reach_target-state-v0
+  maxEpisodes: 20
+  maxFrameRate: 90
+  minFrameRate: 40
+  pSet: 44
+  projectId: null
+  s3upload: true
+  startingFrameRate: 40

@@ -1,0 +1,149 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  30
+Task Name:  CustomReachEnv3
+done
+{'upload': {'projectId': None, 'participantID': '30', 'file': 'trial_30', 'path': './Trials/trial_30'}}
+User directory created:  /home/user/Thesis/userdata/PandaReach-v3/31
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/31/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/31/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  31
+Task Name:  CustomReachEnv0
+done
+{'upload': {'projectId': None, 'participantID': '31', 'file': 'trial_31', 'path': './Trials/trial_31'}}
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/31/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/31/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  31
+Task Name:  CustomReachEnv0
+done
+{'upload': {'projectId': None, 'participantID': '31', 'file': 'trial_31', 'path': './Trials/trial_31'}}
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/31/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/31/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  31
+Task Name:  CustomReachEnv1
+done
+{'upload': {'projectId': None, 'participantID': '31', 'file': 'trial_31', 'path': './Trials/trial_31'}}
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/31/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/31/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  31
+Task Name:  CustomReachEnv2
+done
+{'upload': {'projectId': None, 'participantID': '31', 'file': 'trial_31', 'path': './Trials/trial_31'}}
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/31/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/31/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  31
+Task Name:  CustomReachEnv3
+done
+{'upload': {'projectId': None, 'participantID': '31', 'file': 'trial_31', 'path': './Trials/trial_31'}}
+User directory created:  /home/user/Thesis/userdata/PandaReach-v3/32
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/32/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/32/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  32
+Task Name:  CustomReachEnv0
+done
+{'upload': {'projectId': None, 'participantID': '32', 'file': 'trial_32', 'path': './Trials/trial_32'}}
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/32/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/32/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  32
+Task Name:  CustomReachEnv1
+done
+{'upload': {'projectId': None, 'participantID': '32', 'file': 'trial_32', 'path': './Trials/trial_32'}}
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/32/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/32/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  32
+Task Name:  CustomReachEnv2
+done
+{'upload': {'projectId': None, 'participantID': '32', 'file': 'trial_32', 'path': './Trials/trial_32'}}
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/32/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/32/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  32
+Task Name:  CustomReachEnv3
+done
+{'upload': {'projectId': None, 'participantID': '32', 'file': 'trial_32', 'path': './Trials/trial_32'}}
+User directory created:  /home/user/Thesis/userdata/PandaReach-v3/33
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/33/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/33/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  33
+Task Name:  CustomReachEnv0
+done
+{'upload': {'projectId': None, 'participantID': '33', 'file': 'trial_33', 'path': './Trials/trial_33'}}
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/33/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/33/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  33
+Task Name:  CustomReachEnv0
+done
+{'upload': {'projectId': None, 'participantID': '33', 'file': 'trial_33', 'path': './Trials/trial_33'}}
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/33/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/33/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  33
+Task Name:  CustomReachEnv1
+done
+{'upload': {'projectId': None, 'participantID': '33', 'file': 'trial_33', 'path': './Trials/trial_33'}}
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/33/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/33/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  33
+Task Name:  CustomReachEnv2
+done
+{'upload': {'projectId': None, 'participantID': '33', 'file': 'trial_33', 'path': './Trials/trial_33'}}
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/33/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/33/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  33
+Task Name:  CustomReachEnv3
+done
+{'upload': {'projectId': None, 'participantID': '33', 'file': 'trial_33', 'path': './Trials/trial_33'}}

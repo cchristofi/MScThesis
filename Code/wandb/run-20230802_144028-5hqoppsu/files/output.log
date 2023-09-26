@@ -1,0 +1,37 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  2
+Task Name:  CustomReachEnv1
+ID: 0
+COMBOBOX: Task 1 - Reach Green Sphere
+done
+{'upload': {'projectId': None, 'participantID': '2', 'file': 'trial_2', 'path': './Trials/trial_2'}}
+[Errno 2] No such file or directory: './pre-trained-model/PandaReach-v3/PandaReach-v3_PStable.csv'
+Creating new file
+READ THE FUCKING QTABLE
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv1
+ID: 0
+COMBOBOX: Task 2 - Avoid Red Sphere
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}
+[Errno 2] No such file or directory: './pre-trained-model/PandaReach-v3/PandaReach-v3_PStable.csv'
+Creating new file
+READ THE FUCKING QTABLE
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv2
+ID: 2
+COMBOBOX: Task 2 - Avoid Red Sphere
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}
+[Errno 2] No such file or directory: './pre-trained-model/PandaReach-v3/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/2/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  2

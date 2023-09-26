@@ -1,0 +1,98 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv2
+State: 9,10,11
+State: 9,10,11
+State: 9,10,11
+State: 9,9,11
+State: 9,9,11
+State: 9,9,11
+State: 9,10,11
+State: 9,9,11
+State: 9,9,10
+State: 9,10,10
+State: 9,9,10
+State: 8,9,11
+State: 9,9,11
+State: 9,10,11
+State: 9,9,11
+State: 9,10,11
+State: 9,9,11
+State: 8,9,11
+State: 9,9,10
+State: 9,10,10
+State: 9,9,10
+State: 9,10,10
+State: 9,10,11
+State: 9,9,11
+State: 9,9,11
+State: 9,9,11
+State: 9,8,11
+State: 9,8,11
+State: 9,7,11
+State: 9,7,11
+State: 9,7,11
+State: 10,8,11
+State: 10,8,10
+State: 10,7,10
+State: 10,7,10
+State: 10,7,10
+State: 9,10,11
+State: 9,10,11
+State: 9,9,11
+State: 9,9,10
+State: 9,9,10
+State: 8,9,10
+State: 8,9,10
+State: 9,9,10
+State: 9,9,10
+State: 9,9,10
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/0/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/0/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv3
+State: 9,9,11
+State: 9,9,11
+State: 9,10,11
+State: 9,10,10
+State: 9,9,10
+State: 9,9,10
+State: 9,10,10
+State: 9,9,10
+State: 9,10,10
+State: 9,10,10
+State: 9,9,10
+State: 9,9,10
+State: 9,10,10
+State: 9,10,10
+State: 9,9,10
+State: 9,8,10
+State: 9,8,10
+State: 9,7,10
+State: 8,7,10
+State: 8,7,10
+State: 8,7,9
+State: 9,7,9
+State: 9,7,9
+State: 9,7,9
+State: 9,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9

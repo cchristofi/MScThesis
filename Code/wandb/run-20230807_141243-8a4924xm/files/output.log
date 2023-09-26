@@ -1,0 +1,126 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv0
+<ElapsedTimeThread(Thread-1, initial daemon)>
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv0
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+<ElapsedTimeThread(Thread-5, initial daemon)>
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv0
+<ElapsedTimeThread(Thread-6, initial daemon)>
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}
+Traceback (most recent call last):
+  File "/home/user/Thesis/GUI/gui.py", line 155, in keyPressEvent
+    self.runTrial.trial.agent.take_training_step([0, 1, 0])
+  File "/home/user/Thesis/agent.py", line 597, in take_training_step
+    def take_training_step(self, action):
+  File "/home/user/panda-gym/panda_gym/envs/core.py", line 317, in step
+    self.robot.set_action(action)
+  File "/home/user/panda-gym/panda_gym/envs/robots/panda.py", line 57, in set_action
+    target_arm_angles = self.ee_displacement_to_target_arm_angles(ee_displacement)
+  File "/home/user/panda-gym/panda_gym/envs/robots/panda.py", line 83, in ee_displacement_to_target_arm_angles
+    ee_position = self.get_ee_position()
+  File "/home/user/panda-gym/panda_gym/envs/robots/panda.py", line 136, in get_ee_position
+    return self.get_link_position(self.ee_link)
+  File "/home/user/panda-gym/panda_gym/envs/core.py", line 88, in get_link_position
+    return self.sim.get_link_position(self.body_name, link)
+  File "/home/user/panda-gym/panda_gym/pybullet.py", line 231, in get_link_position
+    position = self.physics_client.getLinkState(self._bodies_idx[body], link)[0]
+pybullet.error: Not connected to physics server.
+Traceback (most recent call last):
+  File "/home/user/Thesis/GUI/gui.py", line 155, in keyPressEvent
+    self.runTrial.trial.agent.take_training_step([0, 1, 0])
+  File "/home/user/Thesis/agent.py", line 597, in take_training_step
+    def take_training_step(self, action):
+  File "/home/user/panda-gym/panda_gym/envs/core.py", line 317, in step
+    self.robot.set_action(action)
+  File "/home/user/panda-gym/panda_gym/envs/robots/panda.py", line 57, in set_action
+    target_arm_angles = self.ee_displacement_to_target_arm_angles(ee_displacement)
+  File "/home/user/panda-gym/panda_gym/envs/robots/panda.py", line 83, in ee_displacement_to_target_arm_angles
+    ee_position = self.get_ee_position()
+  File "/home/user/panda-gym/panda_gym/envs/robots/panda.py", line 136, in get_ee_position
+    return self.get_link_position(self.ee_link)
+  File "/home/user/panda-gym/panda_gym/envs/core.py", line 88, in get_link_position
+    return self.sim.get_link_position(self.body_name, link)
+  File "/home/user/panda-gym/panda_gym/pybullet.py", line 231, in get_link_position
+    position = self.physics_client.getLinkState(self._bodies_idx[body], link)[0]
+pybullet.error: Not connected to physics server.

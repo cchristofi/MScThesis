@@ -1,0 +1,6 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  250
+Task Name:  CustomReachEnv0
+done
+{'upload': {'projectId': None, 'participantID': '250', 'file': 'trial_250', 'path': './Trials/trial_250'}}

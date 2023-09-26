@@ -1,0 +1,25 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv0
+14281
+60194
+62477
+64858
+67037
+69959
+72209
+74508
+76767
+79074
+82175
+84621
+634
+3354
+6053
+8927
+12356
+14777
+17442
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}

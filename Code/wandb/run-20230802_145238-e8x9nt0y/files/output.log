@@ -1,0 +1,51 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv1
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}
+ID: 0
+COMBOBOX: Task 1 - Reach Green Sphere
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv1
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}
+ID: 0
+COMBOBOX: Task 2 - Avoid Red Sphere
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv2
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}
+done
+Traceback (most recent call last):
+  File "/home/user/Thesis/trial.py", line 152, in start
+    self.run()
+  File "/home/user/Thesis/trial.py", line 172, in run
+    self.end()
+  File "/home/user/Thesis/trial.py", line 207, in end
+    self.agent.close()
+  File "/home/user/Thesis/agent.py", line 594, in close
+    self.env.close()
+  File "/home/user/panda-gym/panda_gym/envs/core.py", line 328, in close
+    self.sim.close()
+  File "/home/user/panda-gym/panda_gym/pybullet.py", line 73, in close
+    self.physics_client.disconnect()
+pybullet.error: Not connected to physics server.
+Traceback (most recent call last):
+  File "/home/user/Thesis/trial.py", line 152, in start
+    self.run()
+  File "/home/user/Thesis/trial.py", line 172, in run
+    self.end()
+  File "/home/user/Thesis/trial.py", line 207, in end
+    self.agent.close()
+  File "/home/user/Thesis/agent.py", line 594, in close
+    self.env.close()
+  File "/home/user/panda-gym/panda_gym/envs/core.py", line 328, in close
+    self.sim.close()
+  File "/home/user/panda-gym/panda_gym/pybullet.py", line 73, in close
+    self.physics_client.disconnect()
+pybullet.error: Not connected to physics server.

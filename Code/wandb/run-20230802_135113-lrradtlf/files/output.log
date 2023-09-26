@@ -1,0 +1,54 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  Pambos
+Task Name:  CustomReachEnv1
+Traceback (most recent call last):
+  File "panda_v2.py", line 30, in startWindow
+    self.UIWindow.btnStop.connect(self.UIWindow.controlBehaviour)
+AttributeError: 'QPushButton' object has no attribute 'connect'
+Traceback (most recent call last):
+  File "panda_v2.py", line 30, in startWindow
+    self.UIWindow.btnStop.connect(self.UIWindow.controlBehaviour)
+AttributeError: 'QPushButton' object has no attribute 'connect'
+CLOSE EVENT CALLEDdone
+-----------------------------------{'upload': {'projectId': None, 'participantID': 'Pambos', 'file': 'trial_Pambos', 'path': './Trials/trial_Pambos'}}
+Traceback (most recent call last):
+  File "panda_v2.py", line 30, in startWindow
+    self.UIWindow.btnStop.connect(self.UIWindow.controlBehaviour)
+AttributeError: 'QPushButton' object has no attribute 'connect'
+Traceback (most recent call last):
+  File "panda_v2.py", line 30, in startWindow
+    self.UIWindow.btnStop.connect(self.UIWindow.controlBehaviour)
+AttributeError: 'QPushButton' object has no attribute 'connect'
+Traceback (most recent call last):
+  File "panda_v2.py", line 30, in startWindow
+    self.UIWindow.btnStop.connect(self.UIWindow.controlBehaviour)
+AttributeError: 'QPushButton' object has no attribute 'connect'
+Traceback (most recent call last):
+  File "panda_v2.py", line 30, in startWindow
+    self.UIWindow.btnStop.connect(self.UIWindow.controlBehaviour)
+AttributeError: 'QPushButton' object has no attribute 'connect'
+Traceback (most recent call last):
+  File "panda_v2.py", line 30, in startWindow
+    self.UIWindow.btnStop.connect(self.UIWindow.controlBehaviour)
+AttributeError: 'QPushButton' object has no attribute 'connect'
+Traceback (most recent call last):
+  File "panda_v2.py", line 30, in startWindow
+    self.UIWindow.btnStop.connect(self.UIWindow.controlBehaviour)
+AttributeError: 'QPushButton' object has no attribute 'connect'
+Traceback (most recent call last):
+  File "panda_v2.py", line 30, in startWindow
+    self.UIWindow.btnStop.connect(self.UIWindow.controlBehaviour)
+AttributeError: 'QPushButton' object has no attribute 'connect'
+Traceback (most recent call last):
+  File "panda_v2.py", line 30, in startWindow
+    self.UIWindow.btnStop.connect(self.UIWindow.controlBehaviour)
+AttributeError: 'QPushButton' object has no attribute 'connect'
+Traceback (most recent call last):
+  File "panda_v2.py", line 30, in startWindow
+    self.UIWindow.btnStop.connect(self.UIWindow.controlBehaviour)
+AttributeError: 'QPushButton' object has no attribute 'connect'
+Traceback (most recent call last):
+  File "panda_v2.py", line 30, in startWindow
+    self.UIWindow.btnStop.connect(self.UIWindow.controlBehaviour)
+AttributeError: 'QPushButton' object has no attribute 'connect'

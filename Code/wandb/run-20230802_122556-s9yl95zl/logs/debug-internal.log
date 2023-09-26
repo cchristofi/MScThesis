@@ -1,0 +1,19 @@
+2023-08-02 12:25:56,562 INFO    StreamThr :13249 [internal.py:wandb_internal():86] W&B internal server running at pid: 13249, started at: 2023-08-02 12:25:56.562338
+2023-08-02 12:25:56,563 DEBUG   HandlerThread:13249 [handler.py:handle_request():144] handle_request: status
+2023-08-02 12:25:56,566 INFO    WriterThread:13249 [datastore.py:open_for_write():85] open: /home/user/Thesis/wandb/run-20230802_122556-s9yl95zl/run-s9yl95zl.wandb
+2023-08-02 12:25:56,566 DEBUG   SenderThread:13249 [sender.py:send():375] send: header
+2023-08-02 12:25:56,585 DEBUG   SenderThread:13249 [sender.py:send():375] send: run
+2023-08-02 12:25:57,311 INFO    SenderThread:13249 [dir_watcher.py:__init__():219] watching files in: /home/user/Thesis/wandb/run-20230802_122556-s9yl95zl/files
+2023-08-02 12:25:57,311 INFO    SenderThread:13249 [sender.py:_start_run_threads():1124] run started: s9yl95zl with start time 1690968356.562629
+2023-08-02 12:25:57,565 WARNING StreamThr :13249 [internal.py:is_dead():414] Internal process exiting, parent pid 13209 disappeared
+2023-08-02 12:25:57,565 ERROR   StreamThr :13249 [internal.py:wandb_internal():152] Internal process shutdown.
+2023-08-02 12:25:57,585 INFO    HandlerThread:13249 [handler.py:finish():845] shutting down handler
+2023-08-02 12:25:57,585 INFO    WriterThread:13249 [datastore.py:close():298] close: /home/user/Thesis/wandb/run-20230802_122556-s9yl95zl/run-s9yl95zl.wandb
+2023-08-02 12:25:58,311 INFO    SenderThread:13249 [sender.py:finish():1550] shutting down sender
+2023-08-02 12:25:58,311 INFO    SenderThread:13249 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-08-02 12:25:59,312 INFO    SenderThread:13249 [dir_watcher.py:finish():395] scan: /home/user/Thesis/wandb/run-20230802_122556-s9yl95zl/files
+2023-08-02 12:25:59,312 INFO    SenderThread:13249 [dir_watcher.py:finish():409] scan save: /home/user/Thesis/wandb/run-20230802_122556-s9yl95zl/files/config.yaml config.yaml
+2023-08-02 12:25:59,312 INFO    SenderThread:13249 [file_pusher.py:finish():168] shutting down file pusher
+2023-08-02 12:25:59,313 INFO    SenderThread:13249 [file_pusher.py:join():173] waiting for file pusher
+2023-08-02 12:25:59,565 INFO    MainThread:13249 [internal.py:handle_exit():76] Internal process exited
+2023-08-02 12:26:00,025 INFO    wandb-upload_0:13249 [upload_job.py:push():137] Uploaded file /home/user/Thesis/wandb/run-20230802_122556-s9yl95zl/files/config.yaml

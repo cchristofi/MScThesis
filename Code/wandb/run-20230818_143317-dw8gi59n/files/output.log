@@ -1,0 +1,44 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  26
+Task Name:  CustomReachEnv0
+done
+{'upload': {'projectId': None, 'participantID': '26', 'file': 'trial_26', 'path': './Trials/trial_26'}}
+Traceback (most recent call last):
+  File "/home/user/Thesis/GUI/gui.py", line 230, in setLblText
+    if self.runTrial.trial.agent.trial_timer >= 180:
+AttributeError: 'Agent' object has no attribute 'trial_timer'
+Traceback (most recent call last):
+  File "/home/user/Thesis/GUI/gui.py", line 230, in setLblText
+    if self.runTrial.trial.agent.trial_timer >= 180:
+AttributeError: 'Agent' object has no attribute 'trial_timer'
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/26/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/26/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  26
+Task Name:  CustomReachEnv1
+done
+{'upload': {'projectId': None, 'participantID': '26', 'file': 'trial_26', 'path': './Trials/trial_26'}}
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/26/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/26/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  26
+Task Name:  CustomReachEnv2
+done
+{'upload': {'projectId': None, 'participantID': '26', 'file': 'trial_26', 'path': './Trials/trial_26'}}
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/26/PandaReach-v3_PStable.csv'
+Creating new file
+[Errno 2] No such file or directory: './userdata/PandaReach-v3/26/PandaReach-v3_Qtable.csv'
+Creating new file
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  26
+Task Name:  CustomReachEnv3
+done
+{'upload': {'projectId': None, 'participantID': '26', 'file': 'trial_26', 'path': './Trials/trial_26'}}

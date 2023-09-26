@@ -1,0 +1,140 @@
+2023-08-07 14:05:36,942 INFO    StreamThr :8971 [internal.py:wandb_internal():86] W&B internal server running at pid: 8971, started at: 2023-08-07 14:05:36.941792
+2023-08-07 14:05:36,943 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: status
+2023-08-07 14:05:36,945 INFO    WriterThread:8971 [datastore.py:open_for_write():85] open: /home/user/Thesis/wandb/run-20230807_140536-ag70vlmq/run-ag70vlmq.wandb
+2023-08-07 14:05:36,946 DEBUG   SenderThread:8971 [sender.py:send():375] send: header
+2023-08-07 14:05:36,968 DEBUG   SenderThread:8971 [sender.py:send():375] send: run
+2023-08-07 14:05:37,657 INFO    SenderThread:8971 [dir_watcher.py:__init__():219] watching files in: /home/user/Thesis/wandb/run-20230807_140536-ag70vlmq/files
+2023-08-07 14:05:37,658 INFO    SenderThread:8971 [sender.py:_start_run_threads():1124] run started: ag70vlmq with start time 1691406336.94149
+2023-08-07 14:05:37,658 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: summary_record
+2023-08-07 14:05:37,658 INFO    SenderThread:8971 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-08-07 14:05:37,662 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: check_version
+2023-08-07 14:05:37,662 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: check_version
+2023-08-07 14:05:37,851 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: run_start
+2023-08-07 14:05:37,857 DEBUG   HandlerThread:8971 [system_info.py:__init__():31] System info init
+2023-08-07 14:05:37,857 DEBUG   HandlerThread:8971 [system_info.py:__init__():46] System info init done
+2023-08-07 14:05:37,857 INFO    HandlerThread:8971 [system_monitor.py:start():181] Starting system monitor
+2023-08-07 14:05:37,857 INFO    SystemMonitor:8971 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-07 14:05:37,858 INFO    HandlerThread:8971 [system_monitor.py:probe():201] Collecting system info
+2023-08-07 14:05:37,859 INFO    SystemMonitor:8971 [interfaces.py:start():190] Started cpu monitoring
+2023-08-07 14:05:37,859 INFO    SystemMonitor:8971 [interfaces.py:start():190] Started disk monitoring
+2023-08-07 14:05:37,860 INFO    SystemMonitor:8971 [interfaces.py:start():190] Started memory monitoring
+2023-08-07 14:05:37,860 INFO    SystemMonitor:8971 [interfaces.py:start():190] Started network monitoring
+2023-08-07 14:05:37,882 DEBUG   HandlerThread:8971 [system_info.py:probe():195] Probing system
+2023-08-07 14:05:37,887 DEBUG   HandlerThread:8971 [system_info.py:_probe_git():180] Probing git
+2023-08-07 14:05:37,899 DEBUG   HandlerThread:8971 [system_info.py:_probe_git():188] Probing git done
+2023-08-07 14:05:37,899 DEBUG   HandlerThread:8971 [system_info.py:probe():240] Probing system done
+2023-08-07 14:05:37,899 DEBUG   HandlerThread:8971 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-78-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2023-08-07T11:05:37.882579', 'startedAt': '2023-08-07T11:05:36.936870', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'panda.py', 'codePath': 'panda.py', 'git': {'remote': 'git@github.com:cchristofi/FeedbackLearning.git', 'commit': '94be13b60d66a456b0b1b8b916d4588b68bf14b1'}, 'email': 'cc.christofi98@gmail.com', 'root': '/home/user/Thesis', 'host': 'G5-5587', 'username': 'user', 'executable': '/usr/bin/python3', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2458.3049166666665, 'min': 800.0, 'max': 4100.0}, 'cpu_freq_per_core': [{'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 3716.155, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 3783.504, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}], 'disk': {'total': 467.8895797729492, 'used': 66.24644088745117}, 'memory': {'total': 15.321174621582031}}
+2023-08-07 14:05:37,899 INFO    HandlerThread:8971 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-07 14:05:37,899 INFO    HandlerThread:8971 [system_monitor.py:probe():214] Publishing system info
+2023-08-07 14:05:37,899 DEBUG   HandlerThread:8971 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-08-07 14:05:37,900 DEBUG   HandlerThread:8971 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-07 14:05:37,900 INFO    HandlerThread:8971 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-07 14:05:37,902 DEBUG   SenderThread:8971 [sender.py:send():375] send: files
+2023-08-07 14:05:37,902 INFO    SenderThread:8971 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-08-07 14:05:37,906 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-07 14:05:37,906 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: stop_status
+2023-08-07 14:05:38,279 DEBUG   SenderThread:8971 [sender.py:send():375] send: telemetry
+2023-08-07 14:05:38,659 INFO    Thread-12 :8971 [dir_watcher.py:_on_file_created():278] file/dir created: /home/user/Thesis/wandb/run-20230807_140536-ag70vlmq/files/wandb-metadata.json
+2023-08-07 14:05:38,659 INFO    Thread-12 :8971 [dir_watcher.py:_on_file_created():278] file/dir created: /home/user/Thesis/wandb/run-20230807_140536-ag70vlmq/files/requirements.txt
+2023-08-07 14:05:38,659 INFO    Thread-12 :8971 [dir_watcher.py:_on_file_created():278] file/dir created: /home/user/Thesis/wandb/run-20230807_140536-ag70vlmq/files/wandb-summary.json
+2023-08-07 14:05:38,659 INFO    Thread-12 :8971 [dir_watcher.py:_on_file_created():278] file/dir created: /home/user/Thesis/wandb/run-20230807_140536-ag70vlmq/files/output.log
+2023-08-07 14:05:38,676 INFO    wandb-upload_0:8971 [upload_job.py:push():137] Uploaded file /tmp/tmp1qcp8m_hwandb/0j0d3kyo-wandb-metadata.json
+2023-08-07 14:05:40,659 INFO    Thread-12 :8971 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/user/Thesis/wandb/run-20230807_140536-ag70vlmq/files/output.log
+2023-08-07 14:05:42,282 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 14:05:45,863 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 14:05:45,865 DEBUG   SenderThread:8971 [sender.py:send():375] send: history
+2023-08-07 14:05:45,865 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: summary_record
+2023-08-07 14:05:45,868 INFO    SenderThread:8971 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-08-07 14:05:46,661 INFO    Thread-12 :8971 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/user/Thesis/wandb/run-20230807_140536-ag70vlmq/files/wandb-summary.json
+2023-08-07 14:05:47,869 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 14:05:50,663 INFO    Thread-12 :8971 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/user/Thesis/wandb/run-20230807_140536-ag70vlmq/files/output.log
+2023-08-07 14:05:52,906 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-07 14:05:52,906 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: stop_status
+2023-08-07 14:05:53,220 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 14:05:58,220 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 14:06:03,221 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 14:06:07,907 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-07 14:06:07,909 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: stop_status
+2023-08-07 14:06:09,175 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 14:06:09,673 INFO    Thread-12 :8971 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/user/Thesis/wandb/run-20230807_140536-ag70vlmq/files/config.yaml
+2023-08-07 14:06:14,502 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 14:06:19,246 DEBUG   SenderThread:8971 [sender.py:send():375] send: telemetry
+2023-08-07 14:06:20,248 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 14:06:20,678 INFO    Thread-12 :8971 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/user/Thesis/wandb/run-20230807_140536-ag70vlmq/files/output.log
+2023-08-07 14:06:22,958 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-07 14:06:22,958 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: stop_status
+2023-08-07 14:06:26,221 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 14:06:29,786 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 14:06:29,787 DEBUG   SenderThread:8971 [sender.py:send():375] send: history
+2023-08-07 14:06:29,788 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: summary_record
+2023-08-07 14:06:29,789 INFO    SenderThread:8971 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-08-07 14:06:30,680 INFO    Thread-12 :8971 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/user/Thesis/wandb/run-20230807_140536-ag70vlmq/files/wandb-summary.json
+2023-08-07 14:06:31,750 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 14:06:31,750 DEBUG   SenderThread:8971 [sender.py:send():375] send: history
+2023-08-07 14:06:31,751 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: summary_record
+2023-08-07 14:06:31,751 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 14:06:31,751 INFO    SenderThread:8971 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-08-07 14:06:32,317 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 14:06:32,318 DEBUG   SenderThread:8971 [sender.py:send():375] send: history
+2023-08-07 14:06:32,318 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: summary_record
+2023-08-07 14:06:32,319 INFO    SenderThread:8971 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-08-07 14:06:32,648 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 14:06:32,649 DEBUG   SenderThread:8971 [sender.py:send():375] send: history
+2023-08-07 14:06:32,649 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: summary_record
+2023-08-07 14:06:32,650 INFO    SenderThread:8971 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-08-07 14:06:32,681 INFO    Thread-12 :8971 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/user/Thesis/wandb/run-20230807_140536-ag70vlmq/files/wandb-summary.json
+2023-08-07 14:06:32,803 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 14:06:32,804 DEBUG   SenderThread:8971 [sender.py:send():375] send: history
+2023-08-07 14:06:32,804 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: summary_record
+2023-08-07 14:06:32,804 INFO    SenderThread:8971 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-08-07 14:06:33,162 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 14:06:33,162 DEBUG   SenderThread:8971 [sender.py:send():375] send: history
+2023-08-07 14:06:33,163 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: summary_record
+2023-08-07 14:06:33,163 INFO    SenderThread:8971 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-08-07 14:06:33,304 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 14:06:33,304 DEBUG   SenderThread:8971 [sender.py:send():375] send: history
+2023-08-07 14:06:33,305 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: summary_record
+2023-08-07 14:06:33,305 INFO    SenderThread:8971 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-08-07 14:06:33,681 INFO    Thread-12 :8971 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/user/Thesis/wandb/run-20230807_140536-ag70vlmq/files/wandb-summary.json
+2023-08-07 14:06:33,718 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 14:06:33,719 DEBUG   SenderThread:8971 [sender.py:send():375] send: history
+2023-08-07 14:06:33,719 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: summary_record
+2023-08-07 14:06:33,720 INFO    SenderThread:8971 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-08-07 14:06:33,917 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 14:06:33,918 DEBUG   SenderThread:8971 [sender.py:send():375] send: history
+2023-08-07 14:06:33,918 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: summary_record
+2023-08-07 14:06:33,918 INFO    SenderThread:8971 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-08-07 14:06:34,047 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 14:06:34,048 DEBUG   SenderThread:8971 [sender.py:send():375] send: history
+2023-08-07 14:06:34,048 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: summary_record
+2023-08-07 14:06:34,048 INFO    SenderThread:8971 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-08-07 14:06:34,164 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 14:06:34,165 DEBUG   SenderThread:8971 [sender.py:send():375] send: history
+2023-08-07 14:06:34,165 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: summary_record
+2023-08-07 14:06:34,165 INFO    SenderThread:8971 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-08-07 14:06:34,283 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 14:06:34,284 DEBUG   SenderThread:8971 [sender.py:send():375] send: history
+2023-08-07 14:06:34,284 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: summary_record
+2023-08-07 14:06:34,284 INFO    SenderThread:8971 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-08-07 14:06:34,682 INFO    Thread-12 :8971 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/user/Thesis/wandb/run-20230807_140536-ag70vlmq/files/wandb-summary.json
+2023-08-07 14:06:37,286 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 14:06:37,860 DEBUG   SystemMonitor:8971 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-07 14:06:37,861 DEBUG   SenderThread:8971 [sender.py:send():375] send: stats
+2023-08-07 14:06:37,911 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-07 14:06:37,912 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: stop_status
+2023-08-07 14:06:40,524 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 14:06:40,524 DEBUG   SenderThread:8971 [sender.py:send():375] send: history
+2023-08-07 14:06:40,525 DEBUG   SenderThread:8971 [sender.py:send_request():402] send_request: summary_record
+2023-08-07 14:06:40,525 INFO    SenderThread:8971 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-08-07 14:06:40,683 INFO    Thread-12 :8971 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/user/Thesis/wandb/run-20230807_140536-ag70vlmq/files/wandb-summary.json
+2023-08-07 14:06:42,530 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 14:06:43,684 INFO    Thread-12 :8971 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/user/Thesis/wandb/run-20230807_140536-ag70vlmq/files/config.yaml
+2023-08-07 14:06:47,781 DEBUG   HandlerThread:8971 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 14:06:47,892 INFO    memory    :8971 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2023-08-07 14:06:47,892 INFO    cpu       :8971 [interfaces.py:monitor():140] Process cpu has exited.
+2023-08-07 14:06:47,893 DEBUG   SystemMonitor:8971 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-07 14:06:47,893 DEBUG   SystemMonitor:8971 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-07 14:06:47,895 DEBUG   SenderThread:8971 [sender.py:send():375] send: stats
+2023-08-07 14:06:49,870 INFO    MainThread:8971 [internal.py:handle_exit():76] Internal process exited
+2023-08-07 14:06:50,016 WARNING StreamThr :8971 [internal.py:is_dead():414] Internal process exiting, parent pid 8931 disappeared
+2023-08-07 14:06:50,017 ERROR   StreamThr :8971 [internal.py:wandb_internal():152] Internal process shutdown.

@@ -1,0 +1,46 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  Con 2
+Traceback (most recent call last):
+  File "/home/user/Thesis/trial.py", line 124, in start
+    self.run()
+  File "/home/user/Thesis/trial.py", line 144, in run
+    self.end()
+  File "/home/user/Thesis/trial.py", line 182, in end
+    self.agent.close()
+  File "/home/user/Thesis/agent.py", line 636, in close
+    self.env.close()
+  File "/home/user/.local/lib/python3.8/site-packages/gymnasium/core.py", line 422, in close
+    return self.env.close()
+  File "/home/user/.local/lib/python3.8/site-packages/gymnasium/core.py", line 422, in close
+    return self.env.close()
+  File "/home/user/.local/lib/python3.8/site-packages/gymnasium/core.py", line 422, in close
+    return self.env.close()
+  File "/home/user/panda-gym/panda_gym/envs/core.py", line 328, in close
+    self.sim.close()
+  File "/home/user/panda-gym/panda_gym/pybullet.py", line 73, in close
+    self.physics_client.disconnect()
+pybullet.error: Not connected to physics server.
+Traceback (most recent call last):
+  File "/home/user/Thesis/trial.py", line 124, in start
+    self.run()
+  File "/home/user/Thesis/trial.py", line 144, in run
+    self.end()
+  File "/home/user/Thesis/trial.py", line 182, in end
+    self.agent.close()
+  File "/home/user/Thesis/agent.py", line 636, in close
+    self.env.close()
+  File "/home/user/.local/lib/python3.8/site-packages/gymnasium/core.py", line 422, in close
+    return self.env.close()
+  File "/home/user/.local/lib/python3.8/site-packages/gymnasium/core.py", line 422, in close
+    return self.env.close()
+  File "/home/user/.local/lib/python3.8/site-packages/gymnasium/core.py", line 422, in close
+    return self.env.close()
+  File "/home/user/panda-gym/panda_gym/envs/core.py", line 328, in close
+    self.sim.close()
+  File "/home/user/panda-gym/panda_gym/pybullet.py", line 73, in close
+    self.physics_client.disconnect()
+pybullet.error: Not connected to physics server.
+done
+{'upload': {'projectId': None, 'participantID': 'Con 2', 'file': 'trial_Con 2', 'path': './Trials/trial_Con 2'}}
+done

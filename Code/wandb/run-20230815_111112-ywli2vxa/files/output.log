@@ -1,0 +1,42 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  5
+Task Name:  CustomReachEnv1
+State: 8,9,9
+State: 8,9,9
+State: 8,9,9
+State: 8,9,9
+State: 8,9,9
+State: 8,9,9
+State: 8,8,9
+State: 8,8,9
+State: 8,8,9
+State: 8,8,9
+State: 8,8,9
+State: 9,8,9
+State: 9,7,9
+State: 9,7,9
+State: 9,7,9
+State: 9,7,9
+State: 9,7,9
+State: 9,7,9
+State: 9,7,9
+State: 9,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 10,7,9
+State: 9,9,11
+State: 9,9,11
+State: 9,9,11
+State: 9,8,11
+State: 9,8,11
+State: 9,7,11
+State: 9,7,11
+State: 10,7,11
+State: 10,7,11
+State: 10,7,11
+done
+{'upload': {'projectId': None, 'participantID': '5', 'file': 'trial_5', 'path': './Trials/trial_5'}}

@@ -1,0 +1,41 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  ConTest1
+envAction: [0, 0, 0]
+envActionNeg: [0, 0, 0]
+Traceback (most recent call last):
+  File "/home/user/Thesis/trial.py", line 124, in start
+    self.run()
+  File "/home/user/Thesis/trial.py", line 141, in run
+    self.take_step()
+  File "/home/user/Thesis/trial.py", line 312, in take_step
+    envState = self.agent.step(self.humanAction, self.humanFeedback)
+  File "/home/user/Thesis/agent.py", line 297, in step
+    self.invalidState = 'invalid' in self.rl.get_state(self.last_state)
+  File "/home/user/Thesis/RL_functions.py", line 13, in get_state
+    df = pd.DataFrame(state)
+  File "/home/user/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 672, in __init__
+    mgr = ndarray_to_mgr(
+  File "/home/user/.local/lib/python3.8/site-packages/pandas/core/internals/construction.py", line 304, in ndarray_to_mgr
+    values = _prep_ndarray(values, copy=copy)
+  File "/home/user/.local/lib/python3.8/site-packages/pandas/core/internals/construction.py", line 555, in _prep_ndarray
+    raise ValueError(f"Must pass 2-d input. shape={values.shape}")
+ValueError: Must pass 2-d input. shape=()
+Traceback (most recent call last):
+  File "/home/user/Thesis/trial.py", line 124, in start
+    self.run()
+  File "/home/user/Thesis/trial.py", line 141, in run
+    self.take_step()
+  File "/home/user/Thesis/trial.py", line 312, in take_step
+    envState = self.agent.step(self.humanAction, self.humanFeedback)
+  File "/home/user/Thesis/agent.py", line 297, in step
+    self.invalidState = 'invalid' in self.rl.get_state(self.last_state)
+  File "/home/user/Thesis/RL_functions.py", line 13, in get_state
+    df = pd.DataFrame(state)
+  File "/home/user/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 672, in __init__
+    mgr = ndarray_to_mgr(
+  File "/home/user/.local/lib/python3.8/site-packages/pandas/core/internals/construction.py", line 304, in ndarray_to_mgr
+    values = _prep_ndarray(values, copy=copy)
+  File "/home/user/.local/lib/python3.8/site-packages/pandas/core/internals/construction.py", line 555, in _prep_ndarray
+    raise ValueError(f"Must pass 2-d input. shape={values.shape}")
+ValueError: Must pass 2-d input. shape=()

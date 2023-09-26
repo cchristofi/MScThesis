@@ -1,0 +1,60 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv0
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv2
+done
+{'upload': {'projectId': None, 'participantID': '0', 'file': 'trial_0', 'path': './Trials/trial_0'}}
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  0
+Task Name:  CustomReachEnv2
+Traceback (most recent call last):
+  File "/home/user/Thesis/trial.py", line 158, in start
+    self.run()
+  File "/home/user/Thesis/trial.py", line 165, in run
+    self.reset()
+  File "/home/user/Thesis/trial.py", line 190, in reset
+    self.agent.reset()
+  File "/home/user/Thesis/agent.py", line 575, in reset
+    self.first_state = self.env.reset(seed=self.seedNumber)
+  File "/home/user/panda-gym/panda_gym/envs/core.py", line 282, in reset
+    self.robot.reset()
+  File "/home/user/panda-gym/panda_gym/envs/robots/panda.py", line 122, in reset
+    self.set_joint_neutral()
+  File "/home/user/panda-gym/panda_gym/envs/robots/panda.py", line 126, in set_joint_neutral
+    self.set_joint_angles(self.neutral_joint_values)
+  File "/home/user/panda-gym/panda_gym/envs/core.py", line 142, in set_joint_angles
+    self.sim.set_joint_angles(self.body_name, joints=self.joint_indices, angles=angles)
+  File "/home/user/panda-gym/panda_gym/pybullet.py", line 320, in set_joint_angles
+    self.set_joint_angle(body=body, joint=joint, angle=angle)
+  File "/home/user/panda-gym/panda_gym/pybullet.py", line 330, in set_joint_angle
+    self.physics_client.resetJointState(bodyUniqueId=self._bodies_idx[body], jointIndex=joint, targetValue=angle)
+pybullet.error: Not connected to physics server.
+Traceback (most recent call last):
+  File "/home/user/Thesis/trial.py", line 158, in start
+    self.run()
+  File "/home/user/Thesis/trial.py", line 165, in run
+    self.reset()
+  File "/home/user/Thesis/trial.py", line 190, in reset
+    self.agent.reset()
+  File "/home/user/Thesis/agent.py", line 575, in reset
+    self.first_state = self.env.reset(seed=self.seedNumber)
+  File "/home/user/panda-gym/panda_gym/envs/core.py", line 282, in reset
+    self.robot.reset()
+  File "/home/user/panda-gym/panda_gym/envs/robots/panda.py", line 122, in reset
+    self.set_joint_neutral()
+  File "/home/user/panda-gym/panda_gym/envs/robots/panda.py", line 126, in set_joint_neutral
+    self.set_joint_angles(self.neutral_joint_values)
+  File "/home/user/panda-gym/panda_gym/envs/core.py", line 142, in set_joint_angles
+    self.sim.set_joint_angles(self.body_name, joints=self.joint_indices, angles=angles)
+  File "/home/user/panda-gym/panda_gym/pybullet.py", line 320, in set_joint_angles
+    self.set_joint_angle(body=body, joint=joint, angle=angle)
+  File "/home/user/panda-gym/panda_gym/pybullet.py", line 330, in set_joint_angle
+    self.physics_client.resetJointState(bodyUniqueId=self._bodies_idx[body], jointIndex=joint, targetValue=angle)
+pybullet.error: Not connected to physics server.

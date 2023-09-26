@@ -1,0 +1,46 @@
+start complete
+Initiating game:  PandaReach-v3
+Experiments starting for:  Pambos
+Task Name:  CustomReachEnv1
+done
+{'upload': {'projectId': None, 'participantID': 'Pambos', 'file': 'trial_Pambos', 'path': './Trials/trial_Pambos'}}
+Traceback (most recent call last):
+  File "panda_v2.py", line 27, in startWindow
+    self.UIWindow.close()
+  File "/home/user/Thesis/GUI/gui.py", line 89, in close
+    self.close()
+  File "/home/user/Thesis/GUI/gui.py", line 89, in close
+    self.close()
+  File "/home/user/Thesis/GUI/gui.py", line 89, in close
+    self.close()
+  [Previous line repeated 2993 more times]
+RecursionError: maximum recursion depth exceeded
+Traceback (most recent call last):
+  File "/home/user/Thesis/GUI/gui.py", line 89, in close
+    self.close()
+  File "/home/user/Thesis/GUI/gui.py", line 89, in close
+    self.close()
+  File "/home/user/Thesis/GUI/gui.py", line 89, in close
+    self.close()
+  [Previous line repeated 997 more times]
+RecursionError: maximum recursion depth exceeded
+Traceback (most recent call last):
+  File "panda_v2.py", line 27, in startWindow
+    self.UIWindow.close()
+  File "/home/user/Thesis/GUI/gui.py", line 89, in close
+    self.close()
+  File "/home/user/Thesis/GUI/gui.py", line 89, in close
+    self.close()
+  File "/home/user/Thesis/GUI/gui.py", line 89, in close
+    self.close()
+  [Previous line repeated 2993 more times]
+RecursionError: maximum recursion depth exceeded
+Traceback (most recent call last):
+  File "/home/user/Thesis/GUI/gui.py", line 89, in close
+    self.close()
+  File "/home/user/Thesis/GUI/gui.py", line 89, in close
+    self.close()
+  File "/home/user/Thesis/GUI/gui.py", line 89, in close
+    self.close()
+  [Previous line repeated 997 more times]
+RecursionError: maximum recursion depth exceeded

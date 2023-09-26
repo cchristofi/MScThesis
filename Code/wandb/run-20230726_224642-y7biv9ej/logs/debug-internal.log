@@ -1,0 +1,51 @@
+2023-07-26 22:46:42,177 INFO    StreamThr :25881 [internal.py:wandb_internal():86] W&B internal server running at pid: 25881, started at: 2023-07-26 22:46:42.177580
+2023-07-26 22:46:42,178 DEBUG   HandlerThread:25881 [handler.py:handle_request():144] handle_request: status
+2023-07-26 22:46:42,184 INFO    WriterThread:25881 [datastore.py:open_for_write():85] open: /home/user/Thesis/wandb/run-20230726_224642-y7biv9ej/run-y7biv9ej.wandb
+2023-07-26 22:46:42,185 DEBUG   SenderThread:25881 [sender.py:send():375] send: header
+2023-07-26 22:46:42,206 DEBUG   SenderThread:25881 [sender.py:send():375] send: run
+2023-07-26 22:46:43,460 INFO    SenderThread:25881 [dir_watcher.py:__init__():219] watching files in: /home/user/Thesis/wandb/run-20230726_224642-y7biv9ej/files
+2023-07-26 22:46:43,460 INFO    SenderThread:25881 [sender.py:_start_run_threads():1124] run started: y7biv9ej with start time 1690400802.177126
+2023-07-26 22:46:43,460 DEBUG   SenderThread:25881 [sender.py:send_request():402] send_request: summary_record
+2023-07-26 22:46:43,460 INFO    SenderThread:25881 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-07-26 22:46:43,463 DEBUG   HandlerThread:25881 [handler.py:handle_request():144] handle_request: check_version
+2023-07-26 22:46:43,463 DEBUG   SenderThread:25881 [sender.py:send_request():402] send_request: check_version
+2023-07-26 22:46:43,618 DEBUG   HandlerThread:25881 [handler.py:handle_request():144] handle_request: run_start
+2023-07-26 22:46:43,619 DEBUG   HandlerThread:25881 [system_info.py:__init__():31] System info init
+2023-07-26 22:46:43,619 DEBUG   HandlerThread:25881 [system_info.py:__init__():46] System info init done
+2023-07-26 22:46:43,619 INFO    HandlerThread:25881 [system_monitor.py:start():181] Starting system monitor
+2023-07-26 22:46:43,620 INFO    SystemMonitor:25881 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-26 22:46:43,620 INFO    HandlerThread:25881 [system_monitor.py:probe():201] Collecting system info
+2023-07-26 22:46:43,620 INFO    SystemMonitor:25881 [interfaces.py:start():190] Started cpu monitoring
+2023-07-26 22:46:43,621 INFO    SystemMonitor:25881 [interfaces.py:start():190] Started disk monitoring
+2023-07-26 22:46:43,622 INFO    SystemMonitor:25881 [interfaces.py:start():190] Started memory monitoring
+2023-07-26 22:46:43,623 INFO    SystemMonitor:25881 [interfaces.py:start():190] Started network monitoring
+2023-07-26 22:46:43,646 DEBUG   HandlerThread:25881 [system_info.py:probe():195] Probing system
+2023-07-26 22:46:43,650 DEBUG   HandlerThread:25881 [system_info.py:_probe_git():180] Probing git
+2023-07-26 22:46:43,662 DEBUG   HandlerThread:25881 [system_info.py:_probe_git():188] Probing git done
+2023-07-26 22:46:43,662 DEBUG   HandlerThread:25881 [system_info.py:probe():240] Probing system done
+2023-07-26 22:46:43,662 DEBUG   HandlerThread:25881 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-78-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2023-07-26T19:46:43.646128', 'startedAt': '2023-07-26T19:46:42.172551', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'panda.py', 'codePath': 'panda.py', 'git': {'remote': 'git@github.com:cchristofi/FeedbackLearning.git', 'commit': '90041240d10873f241ae19f36f938ac96c890617'}, 'email': 'cc.christofi98@gmail.com', 'root': '/home/user/Thesis', 'host': 'G5-5587', 'username': 'user', 'executable': '/usr/bin/python3', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2460.2630000000004, 'min': 800.0, 'max': 4100.0}, 'cpu_freq_per_core': [{'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 3830.311, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 3692.845, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}], 'disk': {'total': 467.8895797729492, 'used': 66.49478912353516}, 'memory': {'total': 15.321174621582031}}
+2023-07-26 22:46:43,662 INFO    HandlerThread:25881 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-26 22:46:43,662 INFO    HandlerThread:25881 [system_monitor.py:probe():214] Publishing system info
+2023-07-26 22:46:43,662 DEBUG   HandlerThread:25881 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-26 22:46:43,663 DEBUG   HandlerThread:25881 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-26 22:46:43,663 INFO    HandlerThread:25881 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-26 22:46:43,666 DEBUG   SenderThread:25881 [sender.py:send():375] send: files
+2023-07-26 22:46:43,666 INFO    SenderThread:25881 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-07-26 22:46:43,671 DEBUG   HandlerThread:25881 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-26 22:46:43,671 DEBUG   SenderThread:25881 [sender.py:send_request():402] send_request: stop_status
+2023-07-26 22:46:43,969 DEBUG   SenderThread:25881 [sender.py:send():375] send: telemetry
+2023-07-26 22:46:44,311 INFO    wandb-upload_0:25881 [upload_job.py:push():137] Uploaded file /tmp/tmpaec5fdrswandb/3zbrrx5b-wandb-metadata.json
+2023-07-26 22:46:44,461 INFO    Thread-12 :25881 [dir_watcher.py:_on_file_created():278] file/dir created: /home/user/Thesis/wandb/run-20230726_224642-y7biv9ej/files/output.log
+2023-07-26 22:46:44,461 INFO    Thread-12 :25881 [dir_watcher.py:_on_file_created():278] file/dir created: /home/user/Thesis/wandb/run-20230726_224642-y7biv9ej/files/wandb-metadata.json
+2023-07-26 22:46:44,461 INFO    Thread-12 :25881 [dir_watcher.py:_on_file_created():278] file/dir created: /home/user/Thesis/wandb/run-20230726_224642-y7biv9ej/files/wandb-summary.json
+2023-07-26 22:46:44,461 INFO    Thread-12 :25881 [dir_watcher.py:_on_file_created():278] file/dir created: /home/user/Thesis/wandb/run-20230726_224642-y7biv9ej/files/requirements.txt
+2023-07-26 22:46:46,460 INFO    Thread-12 :25881 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/user/Thesis/wandb/run-20230726_224642-y7biv9ej/files/output.log
+2023-07-26 22:46:47,973 DEBUG   HandlerThread:25881 [handler.py:handle_request():144] handle_request: status_report
+2023-07-26 22:46:52,973 DEBUG   HandlerThread:25881 [handler.py:handle_request():144] handle_request: status_report
+2023-07-26 22:46:55,628 INFO    cpu       :25881 [interfaces.py:monitor():140] Process cpu has exited.
+2023-07-26 22:46:55,628 DEBUG   SystemMonitor:25881 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-26 22:46:55,628 DEBUG   SystemMonitor:25881 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-26 22:46:55,628 DEBUG   SystemMonitor:25881 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-26 22:46:55,629 INFO    memory    :25881 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2023-07-26 22:46:55,629 DEBUG   SenderThread:25881 [sender.py:send():375] send: stats
+2023-07-26 22:46:56,621 INFO    MainThread:25881 [internal.py:handle_exit():76] Internal process exited

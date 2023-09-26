@@ -1,0 +1,26 @@
+
+start complete
+Traceback (most recent call last):
+  File "/home/user/Thesis/trial.py", line 124, in start
+    self.run()
+  File "/home/user/Thesis/trial.py", line 141, in run
+    self.take_step()
+  File "/home/user/Thesis/trial.py", line 315, in take_step
+    envState = self.agent.step(self.humanAction, self.humanFeedback)
+  File "/home/user/Thesis/agent.py", line 525, in step
+    self.userRobotDataframe.append(
+  File "/home/user/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 8931, in append
+    raise TypeError("Can only append a dict if ignore_index=True")
+TypeError: Can only append a dict if ignore_index=True
+Traceback (most recent call last):
+  File "/home/user/Thesis/trial.py", line 124, in start
+    self.run()
+  File "/home/user/Thesis/trial.py", line 141, in run
+    self.take_step()
+  File "/home/user/Thesis/trial.py", line 315, in take_step
+    envState = self.agent.step(self.humanAction, self.humanFeedback)
+  File "/home/user/Thesis/agent.py", line 525, in step
+    self.userRobotDataframe.append(
+  File "/home/user/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 8931, in append
+    raise TypeError("Can only append a dict if ignore_index=True")
+TypeError: Can only append a dict if ignore_index=True
